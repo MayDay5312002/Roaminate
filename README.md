@@ -1,2 +1,2 @@
 # Roaminate
-A travel website
+A travel website by Luke Evarretta & James Ngo
