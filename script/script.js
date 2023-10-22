@@ -1,6 +1,6 @@
 const ACCESSKEY = `86vtECIwJi6ItVAALShGOSAVa0GVe1rBxhij-Q8sKCs`;
 
-let endPoint = `https://api.unsplash.com/photos/random/?client_id=${ACCESSKEY}`;
+let endPoint = `https://api.unsplash.com/photos/random/?client_id=${ACCESSKEY}&query=famouse landmark`;
 
 //create the URL schema
 
