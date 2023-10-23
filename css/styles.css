@@ -1,4 +1,12 @@
 body {
+  /*regulates so that the fetch bg picture covers*/
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

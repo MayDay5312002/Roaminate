@@ -13,7 +13,36 @@
     <link rel="stylesheet" href="css/styles.css" />
     <script src="script/script.js" defer></script>
   </head>
+
   <body>
+    <!--still new to fix the current sizing of the form div-->
+    <div class="container">
+      <!-- text-center to center elements both horizontally 
+        mx-auto text-center
+        
+        and vertically within a container-->
+      <div class="my-custom-component">
+        <form class="bg-light flex-container">
+          <h1>Login</h1>
+          <div>
+            <div class="">
+              <label>Username</label>
+              <input type="text" />
+            </div>
+
+            <div>
+              <label>Password</label>
+              <input type="text" />
+            </div>
+
+            <h5><a>Forgot Password?</a></h5>
+            <button>Login</button>
+          </div>
+          <h3>SIGN UP</h3>
+        </form>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
